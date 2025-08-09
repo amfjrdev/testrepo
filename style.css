@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 40px 80px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+}
+#myBtn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 13px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.myList{
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+.taskBare{
+    background-color: rgb(161 ,4,161);
+    padding: 5px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.7vh;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 13px;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
+}
+.taskBare:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+
+}
+.myLi{
+    list-style: none;
+    width: 60%;
+    text-align: center;
+    padding: 5px 5px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+}
+.btns{
+    padding: 5px 5px;
+    width: 36%;
+    display: flex;
+    justify-content: space-around;
+}
+.dltBtn{
+    border: 3px solid red;
+    color: black;
+    border-radius: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.updBtn{
+    border: 3px solid rgb(4, 0, 255);
+    color: black;
+    border-radius: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.chkBtn{
+    border: 3px solid green;
+    color: black;
+    border-radius: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.errorText{
+    color: red;
+}
+.hide{
+    display: none;
+}
+.play{
+    display: block;
+}
+.outline{
+    border: 1px solid red;
+}
+.greenCheck{
+    background-color: green;
+    opacity: 0.6;
+}
